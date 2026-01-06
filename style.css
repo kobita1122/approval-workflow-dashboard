@@ -1,0 +1,27 @@
+body {
+  background: #020617;
+  color: #e5e7eb;
+  font-family: Arial;
+  padding: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #334155;
+  padding: 10px;
+}
+
+button {
+  padding: 6px 10px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.approved { color: #22c55e; }
+.rejected { color: #ef4444; }
+.pending { color: #f59e0b; }
